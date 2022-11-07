@@ -1,39 +1,45 @@
-const arrStudents = [
-	{
-		name: 'Wayne Barnett',
-		position: 'Founder & CEO',
-		img: 'wayne-barnett-founder-ceo.jpg',
-	},
+const team = [
     {
-		name: 'Angela Caroll',
-		position: 'Chief Editor',
-		img: 'angela-caroll-chief-editor.jpg',
-	},
-    {
-		name: 'Walter Gordon',
-		position: 'Office Manager',
-		img: 'walter-gordon-office-manager.jpg',
-	},
-    {
-		name: 'Angela Lopez	',
-		position: 'Social Media Manager',
-		img: 'angela-lopez-social-media-manager.jpg',
-	},
-    {
-		name: 'Scott Estrada',
-		position: 'Developer',
-		img: 'scott-estrada-developer.jpg',
-	},
-    {
-		name: 'Barbara Ramos',
-		position: 'Graphic Designer',
-		img: 'barbara-ramos-graphic-designer.jpg',
-	},
-	
-];
+        name: 'Wayne Barnett',
+        role: 'Founder & CEO',
+        profilePic: 'wayne-barnett-founder-ceo.jpg'
+    },
 
-console.table(arrStudents);
+    {
+        name: 'Angela Caroll',
+        role: 'Chief Editor',
+        profilePic: 'angela-caroll-chief-editor.jpg'
+    },
 
-for (let i = 0; i < arrStudents.length; i++) {
-	console.log(`${arrStudents[i].name} ${arrStudents[i].position} ${arrStudents[i].img}`);
+    {
+        name: 'Walter Gordon',
+        role: 'Office Manager',
+        profilePic: 'walter-gordon-office-manager.jpg'
+    },
+
+    {
+        name: 'Angela Lopez',
+        role: 'Social Media Manager',
+        profilePic: 'angela-lopez-social-media-manager.jpg'
+    },
+
+    {
+        name: 'Scott Estrada',
+        role: 'Developer',
+        profilePic: 'scott-estrada-developer.jpg'
+    },
+
+    {
+        name: 'Barbara Ramos',
+        role: 'Graphic Designer',
+        profilePic: 'barbara-ramos-graphic-designer.jpg'
+    }
+]
+
+console.table(team);
+
+const aboutUs = document.querySelector(".about-us");
+
+for(let i=0; i<team.length; i++){
+    aboutUs.innerHTML += `<div class="card"> <img src="img/${team[i].profilePic}"> <div class="card-info"> <h4>${team[i].name}</h4> <span>${team[i].role}</span> </div> </div>`
 }
