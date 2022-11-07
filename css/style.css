@@ -12,6 +12,7 @@ body{
 .card{
     width: 300px;
     margin: .5rem auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 img{
@@ -21,7 +22,7 @@ img{
 
 .card-info{
     background-color: white;
-    color: rgb(85, 85, 85);
+    color: #6a645e;
     height: 75px;
     display: flex;
     flex-direction: column;
