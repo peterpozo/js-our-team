@@ -7,15 +7,11 @@ Creare l’array di oggetti con le informazioni fornite.
 
 •MILESTONE 1:
 Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
-<<<<<<< HEAD
-MILESTONE 2:
-Stampare le stesse informazioni su DOM sottoforma di stringhe
-BONUS 1:
-Trasformare la stringa foto in una immagine effettiva
-BONUS 2:
-Organizzare i singoli membri in card/schede
-=======
 
 •MILESTONE 2:
 Stampare le stesse informazioni su DOM sottoforma di stringhe
->>>>>>> f4bd2de184ee0e111a5d82b4be08cabf427b691b
+
+•BONUS 1:
+Trasformare la stringa foto in una immagine effettiva
+•BONUS 2:
+Organizzare i singoli membri in card/schede
