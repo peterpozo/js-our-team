@@ -41,5 +41,13 @@ console.table(team);
 const aboutUs = document.querySelector(".about-us");
 
 for (let i = 0; i < team.length; i++) {
-  aboutUs.innerHTML += `<div class="card"> <img src="img/${team[i].profilePic}"> <div class="card-info"> <h4>${team[i].name}</h4> <span>${team[i].role}</span> </div> </div>`;
+  aboutUs.innerHTML += `
+  <div class="card"> 
+     <img src="img/${team[i].profilePic}"> 
+     <div class="card-info"> 
+         <h4>${team[i].name}</h4> 
+         <span>${team[i].role}</span> 
+     </div> 
+ </div>
+    `;
 }
