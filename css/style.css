@@ -1,35 +1,35 @@
-body{
-    --bs-body-bg: #f5f5f1;
+body {
+  --bs-body-bg: #f5f5f1;
 }
-.about-us{
-    width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: auto;
-}
-
-.card{
-    width: 300px;
-    margin: .5rem auto;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+.about-us {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
 }
 
-img{
-    width: 100%;
-    margin-bottom: -5px;
+.card {
+  width: 300px;
+  margin: 0.5rem auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
-.card-info{
-    background-color: white;
-    color: #6a645e;
-    height: 75px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+img {
+  width: 100%;
+  margin-bottom: -5px;
 }
 
-.card-info h4{
-    font-size: 1.3rem;
+.card-info {
+  background-color: white;
+  color: #6a645e;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-info h4 {
+  font-size: 1.3rem;
 }
